@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <div className="bg-neutral-800 h-screen ">
+    <div className="bg-neutral-800 min-h-screen ">
       <Navbar/>
       {/* <img src={logo} className="App-logo" alt="logo" /> */}
         {/* <p>
