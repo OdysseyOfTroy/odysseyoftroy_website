@@ -22,8 +22,10 @@ export default function Navbar() {
     </items> */}
   <div className="sm:hidden" id="mobile-menu"/>
 
-  <div className="hidden sm:flex">
+  <div className="hidden sm:ml-16 sm:mr-16 sm:w-full sm:flex justify-between">
+      <a className="ml-2 text-white hover:text-yellow-500 hover:underline decoration-white underline-offset-8">About</a>
       <a className="text-white">OdysseyOfTroy</a>
+      <a className="mr-2 text-white hover:text-yellow-500 hover:underline decoration-white underline-offset-8">Projects</a>
     </div>
 
 </nav>
