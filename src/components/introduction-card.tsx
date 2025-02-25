@@ -1,4 +1,4 @@
-import HomeCard from "./base components/home-card";
+import HomeCard from "./home-card";
 import linkedin from '../assets/linkedin.svg';
 import github from '../assets/github.svg';
 
