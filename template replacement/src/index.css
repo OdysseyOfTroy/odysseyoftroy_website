@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+  --color-purple-odyssey: #660086;
+}
+
+body {
+  height: 100dvw;
+  background-color: #121111;
+  overflow-x: hidden;
+}
