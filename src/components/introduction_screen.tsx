@@ -1,10 +1,14 @@
-import HomeCard from "./home-card";
 import linkedin from '../assets/linkedin.svg';
 import github from '../assets/github.svg';
+import portrait from '../assets/portrait.jpg';
 
-export default function IntroductionCard() {
-    return <HomeCard content=
-    {
+export default function IntroductionScreen() {
+  return (
+    <div className='min-h-screen sm:px-4 sm:py-4 flex flex-col sm:flex-row justify-evenly'>
+    <img className='mt-4 sm:mt-0 w-40 h-40 sm:h-[42rem] sm:w-[42rem] self-center border-2 border-slate-900 rounded-full shadow-lg shadow-purple-odyssey justify-self-center' src={portrait} />
+    <div className='flex-col flex self-center'>
+    <div className='border-2 border-slate-900 bg-black rounded-3xl shadow-xl shadow-purple-odyssey m-2 p-1 sm:m-0 sm:p-6'>
+    
         <div>
         <p className='text-white text-2xl sm:text-5xl pb-6 underline underline-offset-4 decoration-purple-odyssey'> Hi, I'm Troy </p>
         <p className='text-white text-xl sm:text-4xl pb-6'> I'm a software developer and aspiring writer </p>
@@ -20,5 +24,9 @@ export default function IntroductionCard() {
           </a>
         </div>
         </div>
-    }></HomeCard>
+    </div>
+    </div>
+    
+  </div>
+  )
 }
