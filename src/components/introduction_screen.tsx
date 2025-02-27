@@ -23,9 +23,17 @@ export default function IntroductionScreen() {
             </a>
           </div>
         </div>
-        <OdysseyButton containerClass='sm:hidden self-center bg-black text-white w-full mt-14 shadow-lg shadow-purple-odyssey active:ring-2 ring-purple-odyssey' id={'phone_nav_work'} title={'Previous work'}/>          
+        <div className='sm:hidden'>
+        <h1 className='text-white text-4xl pl-4 pt-8 underline underline-offset-4 decoration-[#660086]'>Previous Work</h1>
+      <div className='mt-4 mx-4 rounded-3xl px-4 flex flex-col shadow-lg shadow-purple-odyssey bg-black'>
+        <div className="pb-4">
+          <h2 className='pt-4 text-3xl text-white'>Coreblue</h2>
+          <p className="text-gray-300 text-xl">As a Software Engineer at Coreblue, I was required to learn different technologies to develop several projects for various clients. My primary development language was Flutter for mobile development. Other languages I have experience with include:</p>
+          <p className='text-gray-300 text-xl'>Laravel, React and Vue. Below are some projects I've worked on.</p>
+        </div>
+      </div>  
       </div>
-
+      </div>
     </div>
   )
 }
