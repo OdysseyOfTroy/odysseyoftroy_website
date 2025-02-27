@@ -1,7 +1,6 @@
 import linkedin from '../assets/linkedin.svg';
 import github from '../assets/github.svg';
 import portrait from '../assets/portrait.jpg';
-import OdysseyButton from './odyssey_button';
 
 export default function IntroductionScreen() {
   return (
