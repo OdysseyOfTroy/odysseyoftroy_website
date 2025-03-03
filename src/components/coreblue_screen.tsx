@@ -1,10 +1,11 @@
 import bkLogo from "../assets/bank_of_kigali_logo.png";
 import enLogo from "../assets/executive_nexus_logo.png";
+import OdysseyButton from "./odyssey_button";
 
 export default function CoreblueScreen() {
   return (
-    <div className='h-screen snap-start overflow-hidden'> 
-    <h1 className='text-white text-5xl pl-8 pt-8 underline underline-offset-4 decoration-[#660086]'>Previous Work</h1>
+    <div className='sm:h-screen snap-start sm:overflow-hidden'> 
+    <h1 className='hidden sm:block text-white text-5xl pl-8 pt-8 underline underline-offset-4 decoration-[#660086]'>Previous Work</h1>
       <div className='mt-4 mx-4 rounded-3xl px-4 flex flex-col'>
         <div className="pb-4 hidden sm:block">
           <h2 className='pt-4 text-4xl text-white'>Coreblue</h2>

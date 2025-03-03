@@ -4,7 +4,7 @@ import portrait from '../assets/portrait.jpg';
 
 export default function IntroductionScreen() {
   return (
-    <div className='h-screen sm:px-4 sm:py-4 flex flex-col sm:flex-row sm:justify-evenly snap-start overflow-hidden'>
+    <div className='sm:h-screen sm:px-4 sm:py-4 flex flex-col sm:flex-row sm:justify-evenly sm:snap-start sm:overflow-hidden'>
       <img className='mt-6 sm:mt-0 w-40 h-40 sm:h-[42rem] sm:w-[42rem] self-center border-2 border-slate-900 rounded-full shadow-lg shadow-purple-odyssey justify-self-center' src={portrait} />
       <div className='flex-col flex self-center mt-4 sm:mt-0 mx-4 sm:mx-0'>
         <div className='border-2 border-slate-900 bg-black rounded-3xl shadow-xl shadow-purple-odyssey m-2 p-2 sm:m-0 sm:p-6'>
