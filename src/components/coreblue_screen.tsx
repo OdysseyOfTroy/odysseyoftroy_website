@@ -1,6 +1,5 @@
 import bkLogo from "../assets/bank_of_kigali_logo.png";
 import enLogo from "../assets/executive_nexus_logo.png";
-import OdysseyButton from "./odyssey_button";
 
 export default function CoreblueScreen() {
   return (
